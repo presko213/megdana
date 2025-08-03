@@ -79,3 +79,28 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+.choreographers {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.profile {
+    text-align: center;
+    max-width: 200px;
+}
+.profile img {
+    width: 100%;
+    border-radius: 10px;
+}
+#signup form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#importance {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Bulgarian_embroidery_motif.svg/1280px-Bulgarian_embroidery_motif.svg.png') repeat-x center;
+    background-size: contain;
+    padding-top: 60px;
+}
